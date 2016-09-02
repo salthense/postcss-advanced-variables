@@ -147,7 +147,8 @@ module.exports = postcss.plugin('postcss-advanced-variables', function (opts) {
 	// @each NAME in ARRAY
 	function eachAtEachRule(node, parent, index) {
 		// set params
-		var params = node.params.split(' in ');
+		var params    = node.params.split(' in ');
+		var variables = params[0].split(',');
 		var iterator;
 
 		var name     = variables[0].trim().slice(1);

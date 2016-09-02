@@ -1,6 +1,6 @@
 {
   "name": "postcss-advanced-variables",
-  "version": "1.2.4",
+  "version": "1.2.5",
   "description": "PostCSS plugin that enables Sass-like variables, conditionals, and iterators in CSS",
   "keywords": [
     "postcss",
